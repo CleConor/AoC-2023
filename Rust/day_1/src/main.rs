@@ -66,7 +66,6 @@ fn concat_first_and_last_str(mut line: String) -> usize {
 
     for (k, v) in map.iter() {
         line = line.replace(k, v)
-        
     }
 
     concat_first_and_last(line)
