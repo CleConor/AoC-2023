@@ -1,4 +1,5 @@
 fn main() {
+<<<<<<< HEAD
     let input1 = include_str!("input1.txt");
     let sol1 = first_part(input1);
     dbg!(sol1);
@@ -42,4 +43,7 @@ mod test {
         let sol = second_part(input);
         assert_eq!(sol, 46);
     }*/
+=======
+    println!("Hello, world!");
+>>>>>>> b2ef8a0fb67b07dd91dccb45e6df4732822e9c72
 }
